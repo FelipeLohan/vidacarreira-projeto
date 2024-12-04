@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 img{
@@ -15,6 +16,10 @@ body {
     color: #333;
     line-height: 1.6;
     overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* Cabeçalho */
