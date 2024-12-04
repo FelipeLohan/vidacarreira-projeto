@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+img{
+    max-width: 100%;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #f4f7fa;
@@ -15,12 +19,13 @@ body {
 
 /* Cabeçalho */
 header {
-    background-color: #FF6F00;
+    background-color: #0096db;
     padding: 15px 0;
     position: sticky;
     top: 0;
     z-index: 100;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
 }
 
 nav ul {
@@ -43,14 +48,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #FFCC80;
+    color: #b6e8ff;
     transform: translateY(-5px);
 }
 
 /* Seção Hero */
 .hero {
     height: 100vh;
-    background: url('background.jpg') no-repeat center center fixed;
+    background: url('background.png');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -85,7 +90,7 @@ nav ul li a:hover {
 }
 
 .cta-btn {
-    background-color: #FF6F00;
+    background-color: #0083c0;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -96,7 +101,7 @@ nav ul li a:hover {
 }
 
 .cta-btn:hover {
-    background-color: #FFB74D;
+    background-color: #0096db;
 }
 
 /* Seção Sobre */
@@ -122,7 +127,7 @@ nav ul li a:hover {
 
 /* Seção Desafios */
 #desafios {
-    background-color: #f9f9f9;
+    background-color: #f6fcff;
     padding: 40px 20px;
     text-align: center;
 }
@@ -148,7 +153,7 @@ nav ul li a:hover {
 
 #desafios li strong {
     font-size: 1.2rem;
-    color: #FF6F00;
+    color: #0096db;
 }
 
 /* Seção Dicas */
@@ -163,7 +168,7 @@ nav ul li a:hover {
     width: 30%;
     padding: 20px;
     margin: 10px;
-    background-color: #f9f9f9;
+    background-color: #0096db;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -177,14 +182,19 @@ nav ul li a:hover {
 .tip-card h3 {
     font-size: 1.8rem;
     margin-bottom: 10px;
+    color: #fff;
 }
 
 .tip-card p {
     font-size: 1.1rem;
-    color: #555;
+    color: #dbf2ff;
 }
 
 /* Formulário de Contato */
+
+#contato{
+    background-color: #f6fcff;
+}
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -220,7 +230,7 @@ textarea {
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-    border-color: #FF6F00;
+    border-color: #0096db;
 }
 
 textarea {
@@ -229,7 +239,7 @@ textarea {
 }
 
 button[type="submit"] {
-    background-color: #FF6F00;
+    background-color: #0096db;
     color: white;
     padding: 15px 30px;
     border: none;
@@ -240,7 +250,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background-color: #FFB74D;
+    background-color: #0096db;
 }
 
 /* Rodapé */
